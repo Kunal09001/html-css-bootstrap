@@ -1,0 +1,208 @@
+body{
+    font-family: 'Montserrat';
+    text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold';
+}
+
+p{
+    font-size:1.5rem;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+#title{
+    text-align:left;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.white-section{
+    background-color:#fff;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:'Montserrat-Light';
+}
+
+/* Buttons */
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width:20%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:20%;
+}
+
+
+
+
+/* second page container changes */
+
+#features{
+    padding:7% 7%;
+    position:relative;
+    z-index:1;
+}
+
+.feature-title{
+    font-size:1.5rem;
+}
+
+
+.second-page{
+    color:#8f8f8f;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+    background-color:#ef8172;
+}
+
+.testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+.testimonial-img{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+.testimonial-img2{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+/* Press section */
+
+#press{
+    background-color:#ef8172;
+    padding-bottom:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Carousel */
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+/* Card-Deck /Pricing for keeping height of all cards same */
+
+#pricing{
+    padding:100px;
+}
+
+.price-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+.pricing-col{
+    padding:3% 2%;
+}
+.card{
+    height:100%;
+}
+
+
+/* Media query for making more responsive */
+
+@media (max-width: 1028px )
+{
+.title-image{
+    width:50%;
+    position:static;
+    transform:rotate(0);
+    }
+
+#title{
+    text-align:center;
+}    
+}
+
+
+/* Call to Action */
+
+#cta{
+    padding: 7% 7%;
+}
+
+.last-logo{
+    margin:5% 3% 5% 0;
+}
+
+
+/* Footer Section */
+
+#footer{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.footer-icon{
+    padding-left:2%;
+    padding-right:0;
+}
